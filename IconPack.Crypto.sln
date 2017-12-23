@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IconPack.Crypto", "IconPack.Crypto\IconPack.Crypto.csproj", "{084B64E7-96A2-44F2-8EEC-A78F54500C36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IconPack.Crypto.Viewer", "IconPack.Crypto.Viewer\IconPack.Crypto.Viewer.csproj", "{03D3AF1C-1771-4910-AEB1-8E1FB907ECD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{084B64E7-96A2-44F2-8EEC-A78F54500C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{084B64E7-96A2-44F2-8EEC-A78F54500C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{084B64E7-96A2-44F2-8EEC-A78F54500C36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03D3AF1C-1771-4910-AEB1-8E1FB907ECD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03D3AF1C-1771-4910-AEB1-8E1FB907ECD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03D3AF1C-1771-4910-AEB1-8E1FB907ECD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03D3AF1C-1771-4910-AEB1-8E1FB907ECD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
