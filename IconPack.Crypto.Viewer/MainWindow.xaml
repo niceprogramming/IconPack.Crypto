@@ -4,9 +4,25 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IconPack.Crypto.Viewer"
+        xmlns:system="clr-namespace:System;assembly=mscorlib"
+        xmlns:crypto="clr-namespace:IconPack.Crypto;assembly=IconPack.Crypto"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+    <ListBox ScrollViewer.HorizontalScrollBarVisibility="Disabled" x:Name="IconListBox">
+        <ListBox.ItemsPanel>
+            <ItemsPanelTemplate>
+                <WrapPanel/>
+            </ItemsPanelTemplate>
+        </ListBox.ItemsPanel>
+        <ListBox.ItemTemplate>
+            <DataTemplate DataType="{x:Type system:String}">
+                <StackPanel Orientation="Vertical">
+                    <crypto:PackIcon Width="64" Height="64" Kind="{Binding}"></crypto:PackIcon>
+                    <TextBlock HorizontalAlignment="Center" Text="{Binding}"/>
+                </StackPanel>
+              
+               
+            </DataTemplate>
+        </ListBox.ItemTemplate>
+    </ListBox>
 </Window>
