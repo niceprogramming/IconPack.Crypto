@@ -39,6 +39,7 @@
         Emc,
         Eos,
         Etc,
+        Eth,
         Etp,
         Exmo,
         Fair,
